@@ -63,8 +63,8 @@ import { useIntervalFn } from '@vueuse/core';
 import BigNumber from 'bignumber.js';
 import { getAddress } from '@ethersproject/address';
 import { ErrorCode } from '@ethersproject/logger';
-import { SOR } from '@balancer-labs/sor';
-import { Swap, Pool } from '@balancer-labs/sor/dist/types';
+import { SOR } from '@heco-testing-miao/sor';
+import { Swap, Pool } from '@heco-testing-miao/sor/dist/types';
 
 import config from '@/config';
 import provider from '@/utils/provider';
